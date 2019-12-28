@@ -59,10 +59,6 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-.download2-button {
-  margin: 2% 2%;
-}
-
 /* Title */
 .picdog {
   transform: rotate(25deg);
@@ -137,20 +133,25 @@ p {
 
 #cta {
   background-color: #ff4c68;
+  color: white;
   text-align: center;
+  padding: 7% 15%;
 }
 
 #cta h3 {
-  padding-top: 2%;
-  color: white;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
-
 #footer {
   text-align: center;
+  padding: 7% 15%;
 }
 
-#footer p {
-  padding-top: 1%;
+.item-footer {
+  color:black;
+  padding: 0.5%;
 }
 
 /* Mobile Optimization */
