@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -67,12 +67,16 @@ p {
 .picdog {
   transform: rotate(25deg);
   width: 60%;
+  position: absolute;
+  right:20%;
 }
 
 
 /* Features Section */
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 .colu-ft {
@@ -138,6 +142,7 @@ p {
 
 #cta h3 {
   padding-top: 2%;
+  color: white;
 }
 
 #footer {
@@ -146,4 +151,17 @@ p {
 
 #footer p {
   padding-top: 1%;
+}
+
+/* Mobile Optimization */
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+.picdog {
+  position: static;
+  transform: rotate(0);
+}
 }
